@@ -87,7 +87,14 @@ form button {
     color: rgba(158, 120, 207, 1);
     border-radius: 0.67rem;
     font-size: 0.8rem;
-    height: ;
+}
+
+#todo-list li:hover,
+#done-list li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease-in-out;
+    background: rgb(48, 38, 60);
 }
 
 #done-tasks li {
@@ -103,7 +110,6 @@ form button {
 
 #tasks li button {
     margin-right: 10px;
-    color: red;
 }
 
 #tasks li {
