@@ -126,8 +126,8 @@ form button {
 }
 
 .icon-button {
-  /* width: 40px;
-  height: 20px; */
+  width: 30px;
+  height: 15px;
   background-color: transparent;
   padding: 10px;
   border: none;

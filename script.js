@@ -99,14 +99,12 @@ function deleteTaskFromTasks(index) {
   localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-// Store data in local storage //
-  window.addEventListener('beforeunload', () => {;
+
   localStorage.setItem('tasks', JSON.stringify(tasks));
   localStorage.setItem('doneTasks', JSON.stringify(doneTasks));
 });
 
-// Retrieve data from local storage //
-  window.addEventListener('load', () => {
+
   const storedTasks = localStorage.getItem('tasks');
   const storedDoneTasks = localStorage.getItem('doneTasks');
   if (storedTasks) {
